@@ -32,7 +32,7 @@ mutex_lock(key2)
 mutex_lock(key1)
 mutex_lock(key2)
 ```
-21. Inter-Process Communication 
+21. Inter-Process Communication (Shared Memory)
 22. Zombie Process
 23. Signal 
 24. Stack Smashing
