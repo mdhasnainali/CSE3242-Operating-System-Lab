@@ -18,12 +18,8 @@
 16. Investigate if two separate process try to read a named pipe first and then write to the pipe.
 17. Investigate when race condition occurs in a multi-threaded program.
 18. Find a solution to avoid race condition in a multi-threaded program.
-
-
 19. Check how many core you have in your system. Create 4 more process than your core and use a for loop to understand how os schedule the process in different core. Each core should have three thread. Use get_cpu() to read the assigned core and set_cpu() to set the core for each thread. 
-
 20. If we lock the thread twice, without unlocking it, what would happen? Investigate it.
-
 21. If you have two thread and you use two mutex for each thread, what would happen for each combination? Investigate it. Example:
 
 ```
