@@ -1,4 +1,4 @@
-// Create child and parent process
+// Effect of wait in child and parent process relationship
 
 #include <stdio.h>
 #include <unistd.h>
@@ -12,11 +12,11 @@ int main(){
 
     if(child_pid == 0){
         printf("__Child Process__\n");
-        printf("Child Pid: %d, My Pid: %d, Parent Pid: %d\n", child_pid, my_pid, parent_pid);
+        printf("1Child Pid: %d, My Pid: %d, Parent Pid: %d\n", child_pid, my_pid, parent_pid);
     }
     else if(child_pid > 0){
         printf("__Parent Process__\n");
-        printf("Child Pid: %d, My Pid: %d, Parent Pid: %d\n", child_pid, my_pid, parent_pid);
+        printf("2Child Pid: %d, My Pid: %d, Parent Pid: %d\n", child_pid, my_pid, parent_pid);
     }
 
     return 0;

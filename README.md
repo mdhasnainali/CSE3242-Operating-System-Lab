@@ -33,3 +33,7 @@ mutex_lock(key2)
 23. Zombie Process
 24. Signal 
 25. Stack Smashing
+26. Implement FIFO, LRU and Optimal
+27. Create server-client model for communication using socket programming in c
+28. Create server-client model for multi client communication using socket programming in c
+29. Create server-client model for multi client communication using socket programming and multi threading in c
